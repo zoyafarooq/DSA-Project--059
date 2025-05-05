@@ -2,9 +2,6 @@
 #include <string>
 using namespace std;
 
-//////////////////////////////////
-// Product Node for Linked List //
-//////////////////////////////////
 class ProductNode {
 public:
     int id;
@@ -20,9 +17,7 @@ public:
     }
 };
 
-///////////////////////////////
-// Product Catalog LinkedList //
-///////////////////////////////
+
 class ProductCatalog {
 private:
     ProductNode* head;
@@ -62,9 +57,7 @@ public:
     }
 };
 
-///////////////////////////
-// Cart Linked List Node //
-///////////////////////////
+
 class CartItem {
 public:
     int id;
@@ -82,9 +75,7 @@ public:
     }
 };
 
-/////////////////////
-// Shopping Cart   //
-/////////////////////
+
 class Cart {
 private:
     CartItem* head;
@@ -169,9 +160,7 @@ public:
 };
 
 
-///////////////////////
-// Main Application  //
-///////////////////////
+
 int main() {
     ProductCatalog catalog;
     CustomerQueue customerQueue;
