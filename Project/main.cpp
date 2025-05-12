@@ -108,6 +108,8 @@ public:
         cout << "Total: $" << total << endl;
     }
 };
+
+
 class CustomerNode {
 public:
     int id;
@@ -118,6 +120,8 @@ public:
         next = NULL;
     }
 };
+
+
 class CustomerQueue {
 private:
     CustomerNode* front;
